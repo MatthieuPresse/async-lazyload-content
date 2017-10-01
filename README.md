@@ -1,19 +1,20 @@
 # async-lazyload-content
 
-
 [CF wiki](https://github.com/MatthieuPresse/async-lazyload-content/wiki) pour l'explication complete.
+
 
 ### Code HTML
 
-	<div class="iframe-srcdoc"><script type="text/html"><!DOCTYPE html>
-	    <html>
-	    <head><meta charset="utf-8"><style type="text/css">html, body{padding:0;margin:0}</style>
-	    </head><body>
-	        [[VOTRE CONTENU ICI]]
-	    </body>
-	</html></script></div>
+    <div class="iframe-srcdoc"><script type="text/html"><!DOCTYPE html>
+        <html>
+        <head><meta charset="utf-8"><style type="text/css">html, body{padding:0;margin:0}</style>
+        </head><body>
+            [[VOTRE CONTENU ICI]]
+        </body>
+    </html></script></div>
 
-### Code JS
+
+### Code JS
 
     'use strict';
     var opt = {
@@ -47,11 +48,12 @@
         });
     });
 
-### Code CSS
 
-	.iframe-srcdoc iframe {
-	    width: 100%;
-	    border: none;
-	    margin: 0;
-	    padding: 0;
-	}
+### Code CSS
+
+    .iframe-srcdoc iframe {
+        width: 100%;
+        border: none;
+        margin: 0;
+        padding: 0;
+    }
